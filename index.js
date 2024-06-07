@@ -79,9 +79,14 @@ const edadToNum = parseInt(edad)
 console.log(edadToNum);
 
 console.log(+'311', 311+'')
-
+console.log(+numStr, strNum+'');
 
 // operadores de comparacion
+
+// == === != !== > < >= <=
+
+console.log(1 == 1);
+
 // operadores logicos
 // estructuras de control - condiciones
 // arrays y objetos
