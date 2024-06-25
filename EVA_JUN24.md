@@ -15,6 +15,7 @@ Se debe usar:
 - Métodos de arrays
 - Manipulación de DOM
 - Listeners de Eventos
+- template literals
 - Javascript en un archivo externo al html (se debe contar con al menso un archivo html y un archivo js)
 
 Se debe enviar link de descarga a los archivos comprimidos en una carpeta o al reporsitorio de git.
