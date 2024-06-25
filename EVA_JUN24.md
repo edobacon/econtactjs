@@ -4,7 +4,7 @@ Requerimientos:
 - Al presionar botón de enviar:
 Si un input está vacío,  debe cambiar su borde a rojo y mostrar un texto descriptivo debajo el input respectivo
 Si los input tienen datos, debe validar contra un listado de usuarios posibles (al menos 3), si los datos no corresponden, debe mostrar un texto de "credenciales incorrectas", si corresponden a algún usuario, debe mostrar texto "sesión iniciada para " y añadir el nombre del usuario.
-- Al presionar limpiar, se debe resetear el estado del borde de los inputs y eliminar todos los textos descriptivos en la vista
+- Al presionar limpiar, se debe resetear el estado del borde de los inputs, eliminar los valores ingresados en los inputs y eliminar todos los textos descriptivos en la vista
 
 Se debe usar:
 - Declaración de variables
