@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVA_JUN24</title>
+  <style>
+    .block {
+      margin-bottom: 0.5em;
+    }
+    .error {
+      border-color: red;
+    }
+    .error-message {
+      color: red;
+      font-size: 0.875em;
+    }
+  </style>
+</head>
+<body>
+  <p>Evaluación - junio 2024</p>
+  <div id="user-block" class="block">
+    <label for="username">Usuario:</label>
+    <input type="text" id="username" name="username">
+    <div id="username-error" class="error-message"></div>
+  </div>
+  <div id="pass-block" class="block">
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password">
+    <div id="password-error" class="error-message"></div>
+  </div>
+  <div id="buttons" class="block">
+    <button type="button" id="submit-btn">Enviar</button>
+    <button type="button" id="reset-btn">Limpiar</button>
+  </div>
+  <div id="login-message"></div>
+  <script src="index.js"></script>
+</body>
+</html>
